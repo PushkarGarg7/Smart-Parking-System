@@ -1,0 +1,35 @@
+.dashboard {
+  margin-left: 15rem;
+  padding: 3rem;
+  height: 100%;
+  color: black;
+  justify-content: center;
+}
+.grid {
+  margin-top: 3rem;
+  height: 100%;
+}
+.one,
+.two {
+  margin: 2rem 0;
+}
+
+.row-container {
+  display: flex;
+  justify-content: space-between; /* Adjust this property based on your layout needs */
+}
+
+.BarChart {
+  /* Optional: Add styling for your components */
+  width: 48%; /* Adjust the width as needed to leave some space between the components */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.PieChart {
+  /* Optional: Add styling for your components */
+  width: 48%; /* Adjust the width as needed to leave some space between the components */
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
